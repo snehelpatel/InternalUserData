@@ -1,0 +1,80 @@
+body{
+  text-align: center;
+  text-overflow: ellipsis;
+
+}
+
+.container{
+
+}
+
+#header{
+  padding-bottom:50px;
+  font-size:40px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#block{
+  display:inline-block;
+  width:280px;
+  height:400px;
+  margin:4px;
+
+}
+
+#images {
+  margin: auto;
+}
+
+#images > img {
+  width:240px;
+  height:240px;
+}
+
+#name {
+  text-transform: uppercase;
+  text-decoration:underline;
+  text-decoration-color: #00BD84; //no Chrome support!
+  font-weight: bolder;
+
+}
+
+#email {
+  text-transform: uppercase;
+  color:#DBDBDB;
+padding-top:10px;
+  padding-bottom:20px;
+  font-size: 12px;
+
+
+}
+
+#address {
+  text-transform: capitalize;
+  padding-bottom:0px;
+  color:#9A9A9A;
+    font-size: 13px;
+
+}
+#phone{
+    padding-bottom: 20px;
+    color:#9A9A9A;
+    font-size: 13px;
+}
+
+p {
+  margin:0px;
+
+}
+
+#ssn{
+  color:green;
+    filter:blur(5px);
+}
+
+.hover{
+  // transform: ;
+  color: green;
+//bug that prevents filters from being removed? transitionZ isn't working
+}
